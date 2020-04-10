@@ -10,3 +10,14 @@ Script that builds C library based on [bitcoin-core/secp256k1](https://github.co
 ```shell
 ./secp256k1.sh
 ```
+
+
+TODO: 
+
+# configure: WARNING: unrecognized options: --disable-assembly
+# can we build without copying the source code first?
+# with  --host=none-apple-darwin, it gives
+configure: WARNING: using cross tools not prefixed with host triplet
+# ./configure: line 12132: PKG_PROG_PKG_CONFIG: command not found
+
+
